@@ -1,9 +1,6 @@
 # MyPortfolio
 My personal portfolio showcasing my software development Skills
 
-# MyPortfolio
-My personal portfolio showcasing my software development Skills
-
 # Portfolio
 
 This is my personal portfolio, showcasing my skills, projects, and achievements as a software developer. It includes information about my academic background, self-driven projects, and contact details. 
