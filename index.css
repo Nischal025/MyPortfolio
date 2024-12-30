@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background: #1C1C1C;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+   justify-content: right;
+    list-style: none;
+    display: flex;
+    font-family: cursive;
+    font-size: medium;
+    padding: 20px;
+    background: #37363679;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+nav li a{
+    padding:30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav a:hover{
+    color: teal;
+}
+#Home{
+    margin-top: -50px;
+}
+.details{
+    margin-top: 100px;
+    padding-left: 100px;
+    line-height: 60px;
+    color:#FFFFFF;
+    font-size: xx-large;
+    font-family: cursive;
+}
+.som{
+    font-size: medium;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.social-icons
+{
+    margin: 20px 0;
+}
+.social-icons a
+{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 50px;
+    height: 50px;
+    color: #FFFFFF;
+}
+.social-icons a:hover{
+    background: #1ABC9C;
+}
+.details button{
+    background: #1ABC9C;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #FFFFFF;
+}
+.details button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.details button:hover{
+    background-color : #FFFFFF;
+}
+.details button:hover a{
+    color: black;
+}
+
+.vid{
+    width: 508px;
+    height: 600px;
+    margin-top: -500px;
+    margin-left: auto;
+    padding-right: 50px;
+    bottom: -1000px;
+}
+
+.summ{
+    padding-bottom: -2000px;
+    color: #FFFFFF;
+    padding: 17px;
+    line-height: 40px;
+    text-align: justify;
+    font-size: larger;
+    font-family: cursive;
+}
+.summ h1{
+   text-decoration: double underline;
+   font-size: xx-large;
+   font-family: cursive;
+}
+.summ h3{
+    color:darkcyan;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.summ h3:hover{
+    color: white;
+}
+.summ strong:hover, .summ b:hover{
+    color:chartreuse;
+}
+.summ a{
+    text-decoration: none;
+    color: teal;
+}
+.summ a:hover{
+    color:chartreuse;
+}
+
+
+#explore{
+    color: #FFFFFF;
+}
+.exp{
+    top: 150px;
+    color: #FFFFFF;
+    font-family: cursive;
+    text-decoration: double underline;
+    padding: 17px;
+    font-size: xx-large;
+}
+.edu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 30px;
+    margin: 20px;
+}
+.edu > div {
+    width: 35%; 
+    background: #292929; 
+    padding: 15px;
+    border-radius: 8px; 
+    color: #FFFFFF; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+.edu > div:hover{
+    transition: 1s ease-in;
+    background: #FFFFFF;
+    color: black;
+}
+.edu > div h2, 
+.edu > div h3, 
+.edu > div h4, 
+.edu > div p {
+    margin: 10px 0; 
+    padding: 3px;
+    text-align: justify;
+    font-family: cursive;
+}
+.edu > div h2,
+.edu > div h3{
+    text-align: center;
+}
+.edu > div h3{
+    font-size: large;
+}
+.edu > div h4 b{
+    word-spacing: 280px;
+    padding-left: 10px;
+}
+
+#projects{
+    color: #FFFFFF;
+    margin-top: 250px;
+}
+.pro{
+    top: 100px;
+    color: #FFFFFF;
+    font-family: cursive;
+    text-decoration: double underline;
+    padding: 17px;
+    font-size: xx-large;
+}
+.grp {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 40px;
+    margin: 80px;
+    max-width: 1200px; 
+    justify-content: space-evenly;
+}
+.grp > div {
+    width: 400px; 
+    background: #292929; 
+    padding: 15px;
+    border-radius: 8px; 
+    color: #FFFFFF; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+.grp > div h2, 
+.grp > div h3{
+    margin: 10px 0; 
+    padding: 3px;
+    text-align: justify;
+    font-family: cursive;
+}
+.grp > div h2,
+.grp > div h3{
+    text-align: center;
+}
+.grp > div h3{
+    font-size: large;
+}
+.grp > div a {
+    text-decoration: none; 
+}
+.grp > div a i {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 40px; 
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30%;
+    font-size: 20px; 
+    color: #FFFFFF; 
+    background-color: #292929; 
+}
+.grp > div a i:hover{
+    background-color: #FFFFFF;
+    color: #000;
+    transform: scale(1.1);
+}
+.grp > div:hover{
+    transition: 1s ease-in-out;
+    background-color: #FFFFFF;
+    color: #000;
+}
+#Contact{
+    color: #FFFFFF;
+    margin-top: 250px;
+}
+.cont{
+    top: 100px;
+    color: #FFFFFF;
+    font-family: cursive;
+    text-decoration: double underline;
+    padding: 17px;
+    font-size: xx-large;
+}
+.for
+{
+    padding-left: 120px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: large;
+    height: 750px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input
+{
+    padding: 8px;
+    width: 600px;
+    font-size: medium;
+    border-radius: 8px ;
+    color: #FFFFFF;
+    background-color: #292929; 
+}
+.tex{
+    height: 60px;
+    padding-top: 0px;
+    padding-bottom: 120px;
+}
+.for button{
+    background: #1ABC9C;
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #FFFFFF;
+}
+.for button:hover{
+    background-color : #FFFFFF;
+    color: #000;
+}
+.Conn {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.btu {
+    background-color: #1C1C1C;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btu p {
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff; 
+}
+.HiM, .Res {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 18px;
+    text-align: left;
+    width: 500px;
+    margin-right: 0;
+    padding: 10px 10px; 
+    background-color:#1C1C1C;
+    margin-right: 120px;
+    color: #FFFFFF;
+}
+.HiM .Res{
+    margin-right: 0;
+}
+.Mai {
+    background-color: #1ABC9C;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #fff;
+    font-size: medium;
+    text-align: center;
+}
+.Mai a {
+    color: #fff;
+    text-decoration: none;
+}
+.Mai:hover{
+    background: #FFFFFF;
+}
+.Mai a:hover{
+    color: #000;
+}
+footer{
+    color: #FFFFFF;
+}
+.rights img{
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.rights p a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
